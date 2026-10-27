@@ -9,7 +9,10 @@
     },
     "howseen": {
       "type": "http",
-      "url": "https://app.howseen.ai/api/mcp?key=${HOWSEEN_API_KEY:-}"
+      "url": "https://app.howseen.ai/api/mcp",
+      "headers": {
+        "Authorization": "Bearer ${HOWSEEN_API_KEY}"
+      }
     }
   }
 }
