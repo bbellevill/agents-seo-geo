@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "xtablo": {
+      "type": "http",
+      "url": "https://v2.xtablo.com/mcp",
+      "headers": { "Authorization": "Bearer ${XTABLO_API_KEY}" }
+    }
+  }
+}
