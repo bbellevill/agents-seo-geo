@@ -2,6 +2,8 @@
 
 25 agents Claude Code, rangés en 10 escouades, qui font le SEO et le GEO (visibilité dans ChatGPT, Perplexity, Gemini et Google AI Overviews) de tes clients.
 
+Présentation, résultats et installation pas à pas : [xtablo.com/agents-seo-geo](https://www.xtablo.com/agents-seo-geo/)
+
 Ils travaillent dans **XTablo** : chaque client est un projet. Les agents y lisent le contexte du client et y déposent leur travail : articles au calendrier éditorial, actions en tâches, chiffres au reporting. Tu valides, ton client valide dans son portail. Les posts LinkedIn et Instagram partent seuls depuis le calendrier ; les articles et corrections du site arrivent prêts à coller.
 
 ## Installation (10 min)
