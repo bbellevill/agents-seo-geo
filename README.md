@@ -8,7 +8,7 @@ Ils travaillent dans **XTablo** : chaque client est un projet. Les agents y lise
 
 1. **Le dépôt.** Clone-le, ou ouvre-le dans Claude Code sur le web (claude.ai/code) pour qu'il tourne dans le cloud.
    ```
-   git clone https://github.com/xtablo/agents-seo-geo
+   git clone https://github.com/bbellevill/agents-seo-geo
    ```
 2. **La clé XTablo.** Dans XTablo : Paramètres > Clés d'API, crée une clé avec les droits lecture + écriture + messages. Pas de compte ? [xtablo.com](https://www.xtablo.com).
    ```
