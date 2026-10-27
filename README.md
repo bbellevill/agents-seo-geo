@@ -24,6 +24,17 @@ Ils travaillent dans **XTablo** : chaque client est un projet. Les agents y lise
 
 Pour que ça tourne seul chaque lundi : dans Claude Code, `/schedule` puis « chaque lundi 8h, /geo-semaine Nom du client ».
 
+## Les données à brancher
+
+| Donnée | Pour quelles escouades | Comment |
+|---|---|---|
+| Suivi de visibilité IA (réponses de ChatGPT, Perplexity, Gemini, AI Overviews) | 01, 07, 08, 09, 10 | Un outil de suivi avec un connecteur MCP, par exemple Howseen : `claude mcp add --transport http howseen "<adresse MCP donnée par l'outil>"` |
+| Search Console | 01, 03, 07 | Export des requêtes, ou connecteur Search Console |
+| Analytics du site | 10 | Export des sources de trafic (référents IA) |
+| Le site lui-même | 02, 04, 05, 06, 07 | Lu en direct par les agents, rien à brancher |
+
+Sans suivi IA, les escouades 01, 08 et 10 s'arrêtent sur une tâche « Donnée manquante » : elles ne peuvent pas deviner ce que répond ChatGPT.
+
 ## Les 10 escouades
 
 ### 01 · Citations IA
