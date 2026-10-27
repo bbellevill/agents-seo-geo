@@ -13,6 +13,7 @@ Ils travaillent dans **XTablo** : chaque client est un projet. Les agents y lise
 2. **La clé XTablo.** Dans XTablo : Paramètres > Clés d'API, crée une clé avec les droits lecture + écriture + messages. Pas de compte ? [xtablo.com](https://www.xtablo.com).
    ```
    export XTABLO_API_KEY=ta_cle
+   export HOWSEEN_API_KEY=ta_cle   # suivi des réponses des IA, voir plus bas
    ```
 3. **Un projet par client.** Dans XTablo, crée le projet du client et écris dans sa description : secteur, offre, site, 3 concurrents, ce qu'on a le droit de dire.
 4. **Lance.**
@@ -28,7 +29,7 @@ Pour que ça tourne seul chaque lundi : dans Claude Code, `/schedule` puis « ch
 
 | Donnée | Pour quelles escouades | Comment |
 |---|---|---|
-| Suivi de visibilité IA (réponses de ChatGPT, Perplexity, Gemini, AI Overviews) | 01, 07, 08, 09, 10 | Un outil de suivi avec un connecteur MCP, par exemple Howseen : `claude mcp add --transport http howseen "<adresse MCP donnée par l'outil>"` |
+| Suivi de visibilité IA (réponses de ChatGPT, Perplexity, Gemini, AI Overviews) | 01, 07, 08, 09, 10 | Déjà branché : Howseen. Mets la clé d.API de ton compte Howseen : `export HOWSEEN_API_KEY=ta_cle`. Autre outil de suivi ? Ajoute son connecteur MCP dans `.mcp.json`. |
 | Search Console | 01, 03, 07 | Export des requêtes, ou connecteur Search Console |
 | Analytics du site | 10 | Export des sources de trafic (référents IA) |
 | Le site lui-même | 02, 04, 05, 06, 07 | Lu en direct par les agents, rien à brancher |

@@ -3,7 +3,13 @@
     "xtablo": {
       "type": "http",
       "url": "https://v2.xtablo.com/mcp",
-      "headers": { "Authorization": "Bearer ${XTABLO_API_KEY}" }
+      "headers": {
+        "Authorization": "Bearer ${XTABLO_API_KEY}"
+      }
+    },
+    "howseen": {
+      "type": "http",
+      "url": "https://app.howseen.ai/api/mcp?key=${HOWSEEN_API_KEY:-}"
     }
   }
 }
